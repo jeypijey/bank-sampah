@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    tools:context=".fragment.EditProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp">
+
+        <!--        <FrameLayout-->
+        <!--            android:id="@+id/imageLayout"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:foregroundGravity="center"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+        <!--                android:id="@+id/profileImageView"-->
+        <!--                android:layout_width="150dp"-->
+        <!--                android:layout_height="150dp"-->
+        <!--                android:layout_marginBottom="25dp"-->
+        <!--                android:scaleType="centerCrop"-->
+        <!--                android:src="@mipmap/avatar_image" />-->
+
+        <!--            &lt;!&ndash; Stacked image (you can adjust the position using layout_margin attributes) &ndash;&gt;-->
+        <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+        <!--                android:layout_width="150dp"-->
+        <!--                android:layout_height="150dp"-->
+        <!--                android:layout_marginBottom="25dp"-->
+        <!--                android:scaleType="centerCrop"-->
+        <!--                android:src="@drawable/avatar_camera" />-->
+
+        <!--        </FrameLayout>-->
+
+
+        <!--        <LinearLayout-->
+        <!--            android:id="@+id/linearLayout2"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical"-->
+        <!--            tools:layout_editor_absoluteX="25dp"-->
+        <!--            tools:layout_editor_absoluteY="25dp">-->
+
+        <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+        <!--                android:id="@+id/profileImageView"-->
+        <!--                android:layout_width="150dp"-->
+        <!--                android:layout_height="150dp"-->
+        <!--                android:layout_gravity="center"-->
+        <!--                android:scaleType="centerCrop"-->
+        <!--                android:src="@mipmap/avatar_image"-->
+        <!--                android:layout_marginBottom="25dp" />-->
+
+        <!--            &lt;!&ndash; Add this Button to allow the user to choose/take a photo &ndash;&gt;-->
+        <!--&lt;!&ndash;            <Button&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:id="@+id/btnChooseTakePhoto"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_gravity="center_horizontal"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:layout_marginTop="16dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;                android:text="edit" />&ndash;&gt;-->
+        <!--        </LinearLayout>-->
+
+        <!--    <androidx.appcompat.widget.Toolbar-->
+        <!--        android:id="@+id/customToolbar"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="?attr/actionBarSize"-->
+        <!--        android:background="?attr/colorPrimary"-->
+        <!--        app:layout_constraintTop_toTopOf="parent"-->
+        <!--        tools:ignore="MissingConstraints">-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="conto"/>-->
+
+        <!--        &lt;!&ndash; Customize your toolbar layout here &ndash;&gt;-->
+        <!--        &lt;!&ndash; For example, you can add a TextView, an ImageView, etc. &ndash;&gt;-->
+
+        <!--    </androidx.appcompat.widget.Toolbar>-->
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="25dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:focusable="false"
+                android:focusableInTouchMode="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/hijau1"
+                    android:hint="@string/nama"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/hijau3" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginVertical="5dp"-->
+            <!--                android:focusable="false"-->
+            <!--                android:focusableInTouchMode="true">-->
+
+            <!--                <com.google.android.material.textfield.TextInputEditText-->
+            <!--                    android:id="@+id/emailInput"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:backgroundTint="@color/hijau1"-->
+            <!--                    android:enabled="false"-->
+            <!--                    android:hint="Email"-->
+            <!--                    android:inputType="textEmailAddress"-->
+            <!--                    android:textColor="@color/hijau3" />-->
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:focusable="false"
+                android:focusableInTouchMode="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/hijau1"
+                    android:hint="@string/telepon"
+                    android:inputType="number"
+                    android:textColor="@color/hijau3" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:focusable="false"
+                android:focusableInTouchMode="true"
+                android:gravity="start">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/alamatInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:backgroundTint="@color/hijau1"
+                    android:gravity="start"
+                    android:hint="@string/alamat"
+                    android:inputType="text|textMultiLine"
+                    android:maxLines="5"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/hijau3" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/simpanBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/simpan"
+                tools:ignore="MissingConstraints" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/idUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/role"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

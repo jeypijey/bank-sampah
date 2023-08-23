@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Bank Sampah</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="pesan_hapus_sampah">Hapus sampah?</string>
+
+    <string-array name="jenisSampah">
+        <item>Plastik</item>
+        <item>Kardus</item>
+        <item>Botol</item>
+        <item>Kertas</item>
+        <item>Kaleng</item>
+    </string-array>
+    <string name="definisi">Aplikasi Bank sampah adalah aplikasi peduli lingkungan yang bebas dari sampah, segera dapatkan rewardmu!</string>
+    <string name="pesan_hapus_riwayat">Hapus riwayat?</string>
+    <string name="pesan_hapus_pelanggan">Hapus pelanggan?</string>
+    <string name="tarik_saldo">Tarik Saldo</string>
+    <string name="tarik">Tarik</string>
+    <string name="batal">Batal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masuk">MASUK</string>
+    <string name="tidak_punya_akun">Tidak punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="lupa_password">Lupa Password</string>
+    <string name="lupa_password_2">Lupa Password</string>
+    <string name="reset">RESET</string>
+    <string name="kembali">Kembali</string>
+    <string name="nama">Nama</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="masuk_2">Masuk</string>
+    <string name="jenis_sampah">Jenis Sampah</string>
+    <string name="harga">Harga</string>
+    <string name="masukan_password_baru">Masukan Password Baru</string>
+    <string name="masukkan_kata_kunci_pencarian">Masukkan kata kunci pencarian</string>
+    <string name="cari">Cari</string>
+    <string name="masukkan_kata_kunci">Masukkan kata kunci</string>
+    <string name="pilih_jenis_sampah">Pilih Jenis Sampah</string>
+    <string name="riwayat_kosong">Riwayat kosong</string>
+    <string name="nama_pelanggan">Nama Pelanggan</string>
+    <string name="alamat">Alamat</string>
+    <string name="nomor_hp">Nomor HP</string>
+    <string name="saldo">Saldo</string>
+    <string name="_50000">50000</string>
+    <string name="jumlah_penarikan">Jumlah Penarikan</string>
+    <string name="id">id</string>
+    <string name="telepon">Telepon</string>
+    <string name="simpan">Simpan</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="none">-</string>
+    <string name="tukarkan_sampahmu_sekarang">Tukarkan sampahmu sekarang!</string>
+    <string name="menu_kategori">Menu Kategori</string>
+    <string name="pelanggan">Pelanggan</string>
+    <string name="input_data">Input Data</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="riwayat_tarik_saldo">Riwayat Tarik Saldo</string>
+    <string name="pilih_pelanggan">Pilih Pelanggan</string>
+    <string name="berat_kg">Berat (Kg)</string>
+    <string name="masukan_berat">Masukan Berat</string>
+    <string name="harga_per_kg">Harga (per Kg)</string>
+    <string name="_0">0</string>
+    <string name="total">Total</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="masukan_tanggal">Masukan tanggal</string>
+    <string name="tambah_jenis_sampah">Tambah Jenis Sampah</string>
+    <string name="pelanggan_kosong">Pelanggan kosong</string>
+    <string name="muhammad">Muhammad</string>
+    <string name="muhammad_gmail_com">Muhammad@gmail.com</string>
+    <string name="keluar">KELUAR</string>
+    <string name="masukan_nama_lengkap">Masukan nama lengkap</string>
+    <string name="masukan_alamat">Masukan alamat</string>
+    <string name="masukan_nomor_hp">Masukan nomor HP</string>
+    <string name="tambah">Tambah</string>
+    <string name="your_name">Your Name</string>
+    <string name="rp_0">Rp.0</string>
+    <string name="riwayat_sampah">Riwayat Sampah</string>
+    <string name="riwayat_transaksi_saldo">Riwayat Transaksi Saldo</string>
+    <string name="transaksi">Transaksi</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="john_smith">John Smith</string>
+    <string name="email_email_com">email@email.com</string>
+    <string name="xxx_xxxx_xxxx">xxx-xxxx-xxxx</string>
+    <string name="riwayat_sampah_kosong">Riwayat Sampah Kosong</string>
+    <string name="riwayat_tarik_saldo_kosong">Riwayat Tarik Saldo Kosong</string>
+    <string name="botol">Botol</string>
+    <string name="rp_5000">Rp 5000</string>
+    <string name="kg">/kg</string>
+    <string name="_0812456789">0812456789</string>
+    <string name="ahmad">Ahmad</string>
+    <string name="al_hadid_defry">Al Hadid Defry</string>
+    <string name="_26_desember_2022">26 Desember 2022</string>
+    <string name="sampah_plastik">Sampah Plastik</string>
+    <string name="rp_5_000_kg">Rp 5.000 /Kg</string>
+    <string name="berat_4_kg">Berat 4 kg</string>
+    <string name="rp_50_000_000">Rp 50.000.000</string>
+    <string name="saasdasda">SAasdasda</string>
+    <string-array name="satuan">
+        <item>/Kg</item>
+        <item>/Lt</item>
+        <item>/Pcs</item>
+    </string-array>
+</resources>
